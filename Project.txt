@@ -1,0 +1,5 @@
+1.Customer Management Portal:Manik,Ram
+2.Tariff Plan Management Portal:Ankita,Usman
+3.Connection Management Portal:Abhishek,Dhananjay
+4.Usage Management Portal:Ujjal,Boopathy
+5.Backend:Shrabanti,Ferdoz

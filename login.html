@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+
+    <link rel="stylesheet" href="login.css">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+</head>
+
+
+<body class="bg-light">
+    <h1 class="text-dark text-center font-weight-bold bg-light" style="font-size: 55px;">Sign In</h1>
+
+    <div class="col-lg-6 m-auto d-block">
+
+   <form action="">
+
+    <div class="form-group">
+        <label for="user" class="font-weight-bold"> Username: </label>
+        <input type="text" name="user" class="form-control bg-dark" id="user" autocomplete="off">
+        <small id="passwordHelp" class="form-text text-muted">Never share your userid with anyone else.</small>
+
+        <span id="username" class="text-danger font-weight-bold"> </span>
+    </div>
+
+    <div class="form-group">
+        <label class="font-weight-bold"> Password: </label>
+        <input type="password" name="pass" class="form-control bg-dark" id="pass" autocomplete="off">
+        <small id="passwordHelp" class="form-text text-muted">Never share your password with anyone else.</small>
+        <span id="passwords" class="text-danger font-weight-bold"> </span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+   </form>
+</div>
+    
+</body>
+</html>
